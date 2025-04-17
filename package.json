@@ -1,0 +1,52 @@
+{
+	"name": "ksl",
+	"displayName": "KSL",
+	"description": "",
+	"version": "0.0.1",
+	"publisher": "kgsensei",
+	"author": {
+		"name": "kgsensei",
+		"url": "https://kgsensei.dev"
+	},
+	"homepage": "https://ksl.kgsensei.dev/vscode",
+	"icon": "images/icon.png",
+	"engines": {
+		"vscode": "^1.22.0"
+	},
+	"categories": [
+		"Programming Languages",
+		"Snippets"
+	],
+	"keywords": [
+		"snippets",
+		"kgsensei",
+		"ksl"
+	],
+	"contributes": {
+		"languages": [{
+			"id": "ksl",
+			"aliases": [
+				"KSL",
+				"ksl"
+			],
+			"icon": {
+				"light": "images/ksl-light.svg",
+				"dark": "images/ksl-dark.svg"
+			},
+			"extensions": [
+				".k",
+				".ksl"
+			],
+			"configuration": "./language-configuration.json"
+		}],
+		"grammars": [{
+			"language": "ksl",
+			"scopeName": "source.ksl",
+			"path": "./syntaxes/ksl.tmLanguage.json"
+		}],
+		"snippets": [{
+			"language": "ksl",
+			"path": "./snippets/ksl.snippets.json"
+		}]
+	}
+}
