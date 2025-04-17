@@ -6,7 +6,7 @@
 
 - Syntax Highlighting
 - Code Snippets
-- `ks` &amp; `ksl` File Support
+- `k` &amp; `ksl` File Support
 
 ---
 
