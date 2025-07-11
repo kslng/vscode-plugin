@@ -16,7 +16,7 @@
 		},
 		{
 			"name": "storage.type.ksl",
-			"match": "\\b(str|int|float|bool|function|return|for)\\b"
+			"match": "\\b(str|int|float|bool|function|return|for|while)\\b"
 		},
 		{
 			"name": "constant.language.boolean",
