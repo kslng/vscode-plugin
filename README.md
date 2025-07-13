@@ -1,5 +1,7 @@
 # KSL for Visual Studio Code
 
+> Important: As KSL is not even remotely stable this repo will be somewhat useless. The main goal is just organization until KSL is at least a little more ready.
+
 ## Features
 
 **Adds:**
