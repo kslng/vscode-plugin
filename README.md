@@ -11,4 +11,3 @@
 ---
 
 This is the official KSL extension/plugin for Visual Studio Code.
-See more at https://ksl.kgsensei.dev/vscode
