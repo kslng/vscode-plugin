@@ -1,9 +1,14 @@
 {
+	"Library Declaration": {
+		"prefix": "using",
+		"body": "using ${1|io,fs,math,test|};",
+		"description": "Include a library"
+	},
     "Function Declaration": {
         "prefix": "function",
         "body": [
-			"function ${1}(${2}) -> ${3} {",
-			"    // body",
+			"function ${1}(${2}) {",
+			"    ${3}",
 			"    return${4};",
 			"}"
 		],
@@ -44,14 +49,5 @@
 			"}"
 		],
 		"description": "New for loop"
-	},
-	"While Loop": {
-		"prefix": "while",
-		"body": [
-			"while (${1}) {",
-			"	${2}",
-			"}"
-		],
-		"description": "New while loop"
 	}
 }

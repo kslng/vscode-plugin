@@ -2,7 +2,7 @@
 	"name": "ksl",
 	"displayName": "KSL",
 	"description": "",
-	"version": "0.0.2",
+	"version": "0.0.1",
 	"publisher": "kgsensei",
 	"author": {
 		"name": "kgsensei",
@@ -11,8 +11,10 @@
 	"homepage": "https://ksl.kgsensei.dev/vscode",
 	"icon": "images/icon.png",
 	"engines": {
-		"vscode": "^1.22.0"
+		"vscode": "^1.102.0"
 	},
+	"activationEvents": [],
+	"main": "./extension.js",
 	"categories": [
 		"Programming Languages",
 		"Snippets"
