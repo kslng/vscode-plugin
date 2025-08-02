@@ -25,7 +25,7 @@
 		},
 		{
 			"name": "entity.name.type",
-			"match": "\\b(int|int8|int16|int32|float|float16|float32|bool|null|string)\\b"
+			"match": "\\b(int|i8|i16|i32|i64|float|f32|f64|bool|null|string|void)\\b"
 		},
 		{
 			"name": "keyword.operator",
