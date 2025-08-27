@@ -33,7 +33,7 @@
 		},
 		{
 			"name": "keyword.control",
-			"match": "\\b(function|return)\\b"
+			"match": "\\b(fn|return)\\b"
 		},
 		{
 			"name": "constant.language",
@@ -68,3 +68,4 @@
 	],
 	"scopeName": "source.ksl"
 }
+
