@@ -33,7 +33,7 @@
 		},
 		{
 			"name": "keyword.control",
-			"match": "\\b(fn|return|break|continue|struct)\\b"
+			"match": "\\b(fn|return|break|continue|struct|enum)\\b"
 		},
 		{
 			"name": "constant.language",
@@ -68,6 +68,7 @@
 	],
 	"scopeName": "source.ksl"
 }
+
 
 
 
