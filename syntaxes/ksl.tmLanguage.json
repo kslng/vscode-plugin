@@ -12,24 +12,20 @@
 			"end": "\\*/"
 		},
 		{
-			"name": "entity.name.namespace",
-			"match": "\\bnamespace\\b"
-		},
-		{
 			"name": "keyword.control",
 			"match": "\\b(if|else|for|while)\\b"
 		},
 		{
 			"name": "storage.modifier",
-			"match": "\\b(using|extern)\\b"
+			"match": "\\b(using|extern|namespace)\\b"
 		},
 		{
 			"name": "entity.name.type",
-			"match": "\\b(int|i8|i16|i32|i64|float|f32|f64|bool|null|str|void)\\b"
+			"match": "\\b(int|i8|i16|i32|i64|float|f32|f64|bool|null|str|void|char)\\b"
 		},
 		{
 			"name": "keyword.operator",
-			"match": "(==|!=|=|\\+|\\-|\\*|\\/|\\<|\\>|&&|\\|\\||\\;|\\,|\\+\\+|\\-\\-|\\!)"
+			"match": "(==|!=|=|\\+|\\-|\\*|\\/|\\<|\\>|&&|\\|\\||\\;|\\,|\\+\\+|\\-\\-|\\!|\\.)"
 		},
 		{
 			"name": "keyword.control",
@@ -51,6 +47,10 @@
 				"name": "constant.character.escape",
 				"match": "\\\\."
 			}]
+		},
+		{
+			"name": "string.quoted.single",
+			"match": "\\'.\\'"
 		},
 		{
 			"name": "entity.name.function",
