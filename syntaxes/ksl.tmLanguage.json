@@ -25,11 +25,11 @@
 		},
 		{
 			"name": "keyword.operator",
-			"match": "(==|!=|=|\\+|\\-|\\*|\\/|\\<|\\>|&&|\\|\\||\\;|\\,|\\+\\+|\\-\\-|\\!|\\.)"
+			"match": "(==|!=|=|\\+|\\-|\\*|\\/|\\<|\\>|&&|\\|\\||\\;|\\,|\\+\\+|\\-\\-|\\!|\\.|\\?)"
 		},
 		{
 			"name": "keyword.control",
-			"match": "\\b(fn|return|break|continue|struct|enum|impl|interface|type|ref)\\b"
+			"match": "\\b(fn|return|break|continue|struct|enum|impl|interface|ref)\\b"
 		},
 		{
 			"name": "constant.language",
@@ -72,3 +72,4 @@
 	],
 	"scopeName": "source.ksl"
 }
+
