@@ -21,11 +21,11 @@
 		},
 		{
 			"name": "entity.name.type",
-			"match": "\\b(int|i8|i16|i32|i64|float|f32|f64|bool|null|str|void|char)\\b"
+			"match": "\\b(int|i8|i16|i32|i64|uint|u8|u16|u32|u64|float|f32|f64|bool|null|str|void|char)\\b"
 		},
 		{
 			"name": "keyword.operator",
-			"match": "(==|!=|=|\\+|\\-|\\*|\\/|\\<|\\>|&&|\\|\\||\\;|\\,|\\+\\+|\\-\\-|\\!|\\.|\\?)"
+			"match": "(==|!=|=|\\+|\\-|\\*|\\/|\\<|\\>|&&|\\|\\||\\;|\\,|\\+\\+|\\-\\-|\\!|\\.|\\?|\\:|\\%)"
 		},
 		{
 			"name": "keyword.control",
@@ -40,6 +40,10 @@
 			"match": "\\b(\\d+.\\d+|\\d+)\\b"
 		},
 		{
+			"name": "string.quoted.single",
+			"match": "\\'(\\?.|.)\\'+"
+		},
+		{
 			"name": "string.quoted.double",
 			"begin": "\"",
 			"end": "\"",
@@ -47,10 +51,6 @@
 				"name": "constant.character.escape",
 				"match": "\\\\."
 			}]
-		},
-		{
-			"name": "string.quoted.single",
-			"match": "\\'.\\'"
 		},
 		{
 			"name": "entity.name.function",
@@ -72,4 +72,5 @@
 	],
 	"scopeName": "source.ksl"
 }
+
 
