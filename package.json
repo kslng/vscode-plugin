@@ -2,13 +2,13 @@
 	"name": "ksl",
 	"displayName": "KSL",
 	"description": "",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "kgsensei",
 	"author": {
 		"name": "kgsensei",
 		"url": "https://kgsensei.dev"
 	},
-	"homepage": "https://ksl.kgsensei.dev/vscode",
+	"homepage": "https://kslng.org",
 	"icon": "images/icon.png",
 	"engines": {
 		"vscode": "^1.22.0"
